@@ -2,7 +2,7 @@
 
 A simple and responsive To-Do List web application built with React.
 
-
+![App Screenshot](Screenshot (594).png)
 
 ## Table of Contents
 
