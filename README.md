@@ -39,6 +39,8 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/your-username/your-repo.git
 
-2. Change into the project's directory:
+2. Change into the project's directory.
 
-3. Install project Dependencies.
+3. Install project Dependencies using npm.
+
+   And you are good to go!
