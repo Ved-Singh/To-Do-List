@@ -1,0 +1,135 @@
+/* Base styles */
+html {
+  background-color: #B1A6A4;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #B1A6A4;
+}
+
+.container {
+  text-align: center;
+  margin-top: 4vh;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2% 0;
+  padding: 1% 2%;
+  border-radius: 10px;
+}
+
+li.list-group-item {
+  background-color: #697184;
+  border-color: #575e6d;
+}
+
+.form-check-label {
+  font-family: 'Autour One', cursive;
+  font-size: 20px;
+  margin: 10px 5px;
+}
+
+.greyish {
+  background-color: #413f3d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.Heading {
+  font-family: 'Caveat', cursive;
+}
+
+p {
+  font-size: 14px;
+}
+
+/* Media queries for responsive design */
+
+/* Small screens (phones) */
+@media screen and (max-width: 600px) {
+  input {
+    width: 96%;
+    margin: 5%;
+  }
+
+  ul.list-group {
+    margin: 20px 0;
+  }
+
+  li.list-group {
+    margin: 20px 0;
+  }
+}
+
+/* Medium screens (tablets) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  input {
+    width: 100%;
+  }
+
+  li.list-group {
+    padding: 4px 0;
+    margin: 20px 300px;
+  }
+  .App {
+    font-size: 14px; /* Decrease font size to improve readability on smaller screens */
+  }
+
+  ul.list-group {
+    margin: 20px 5%; /* Reduce margins for better spacing on smaller screens */
+  }
+
+  li.list-group-item {
+    padding: 4px 10px; /* Adjust padding for list items */
+    margin: 10px 0; /* Update the margin for list items */
+  }
+
+  .form-check-label {
+    font-size: 16px; /* Adjust font size for better readability */
+  }
+}
+
+/* Large screens (desktops) */
+@media screen and (min-width: 1025px) {
+  input {
+    width: 96%;
+  }
+
+  ul.list-group {
+    margin: 20px 290px;
+  }
+
+  li.list-group {
+    padding: 4px 0;
+    margin: 20px 300px;
+  }
+}
+
+/* Define your default styles for larger screens */
+/* ... (your existing CSS rules) ... */
+
+/* Use media queries to adjust styles for smaller screens */
